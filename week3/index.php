@@ -18,7 +18,7 @@
 		<table>
 		<?php
 		include("config.php");
-		$query = "";
+		$query = "select * from books";
 		
 		// Don’t be intimidated by the following lines. You can pretty much
 		// always copy and paste these because they’re sort of like
